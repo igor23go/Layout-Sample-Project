@@ -1,0 +1,94 @@
+.headline {
+  width: 100%;
+  background-color: $background-color-headline;
+
+  @include for-large-up {
+    position: relative;
+  }
+  &__title {
+    color: $text-color-black;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.312px;
+    margin: 0;
+    padding: 35px 15px 0px 15px;
+
+    @include for-large-up {
+      position: relative;
+      z-index: 1;
+      font-size: 80px;
+      font-weight: 700;
+      line-height: 78px;
+      letter-spacing: -0.5px;
+      width: 754px;
+      height: 165px;
+      padding: 0;
+      margin-top: 76px;
+      margin-left: 126px;
+    }
+  }
+
+  &__desctiption {
+    color: $text-color-black;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    margin: 0;
+    padding: 24px 15px 0px 15px;
+
+    @include for-large-up {
+      margin-top: 30px;
+      margin-left: 130px;
+      padding: 0;
+      width: 456px;
+    }
+  }
+  &__getstart-btn {
+    width: 290px;
+    height: 48px;
+    padding: 0;
+    margin: 30px 15px 0 15px;
+
+    @include for-large-up {
+      width: 160px;
+      height: 48px;
+      margin: 0;
+      margin-top: 58px;
+      margin-left: 130px;
+      margin-bottom: 126px;
+    }
+  }
+
+  &__learnmor-btn {
+    width: 290px;
+    height: 48px;
+    padding: 0;
+    margin: 15px 15px 0 15px;
+
+    @include for-large-up {
+      width: 158px;
+      height: 48px;
+      margin: 0;
+      margin-top: 58px;
+      margin-left: 10px;
+      margin-bottom: 126px;
+    }
+  }
+
+  &__bunner {
+    max-width: 100%;
+    margin-bottom: 36px;
+    margin-top: 33px;
+
+    @include for-large-up {
+      position: absolute;
+      top: 0;
+      left: 579px;
+      margin: 0;
+      background-color: transparent;
+    }
+  }
+}

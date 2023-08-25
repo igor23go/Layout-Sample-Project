@@ -1,0 +1,144 @@
+.communication {
+  padding: 50px 15px;
+
+  @include for-large-up {
+    padding: 0;
+  }
+}
+
+.communication-first {
+  @include for-large-up {
+    display: flex;
+  }
+  &__communicate {
+    @include for-large-up {
+      width: 461px;
+      margin-top: 110px;
+      margin-left: 128px;
+      margin-right: 193px;
+    }
+  }
+  &__subtitle {
+    color: $text-color-communicate-subtitle;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 34px;
+  }
+  &__title {
+    color: $text-color-black;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.357px;
+    margin: 0;
+    margin-top: 17px;
+
+    @include for-large-up {
+      margin-top: 24px;
+    }
+  }
+  &__description {
+    color: $text-color-black;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    margin: 0;
+    margin-top: 18px;
+
+    @include for-large-up {
+      margin-top: 30px;
+    }
+  }
+
+  &__communic-btn {
+    width: 160px;
+    height: 48px;
+    margin-top: 30px;
+
+    @include for-large-up {
+      margin-top: 39px;
+    }
+  }
+
+  &__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    margin-top: 40px;
+
+    @include for-large-up {
+      margin-top: 110px;
+      width: 425px;
+    }
+  }
+  &__image {
+    max-width: 100%;
+  }
+  &__caption {
+    margin-top: 17px;
+
+    @include for-large-up {
+      margin-top: 17px;
+    }
+  }
+}
+.communication-short-line {
+  margin: 0;
+  margin-top: 40px;
+  width: 150px;
+
+  @include for-large-up {
+    margin-top: 26px;
+    margin-left: 126px;
+  }
+}
+
+.communication-second {
+  @include for-large-up {
+    display: flex;
+    justify-content: space-between;
+    padding: 41px 130px 110px 130px;
+  }
+  &__options {
+    margin-top: 33px;
+
+    @include for-large-up {
+      width: 360px;
+      margin: 0;
+    }
+    &:last-child {
+      margin-top: 32px;
+
+      @include for-large-up {
+        margin: 0;
+      }
+    }
+  }
+  &__options-description {
+    margin: 0;
+    color: $text-color-black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+
+  &__options-description-word {
+    color: $text-color-black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+  }
+  &__options-links {
+    color: $text-color-blue;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 0;
+    margin-top: 8px;
+
+    @include for-large-up {
+      margin-top: 11px;
+    }
+  }
+}

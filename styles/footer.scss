@@ -1,0 +1,186 @@
+.footer {
+  .footer-navigation {
+    @include for-large-up {
+      display: flex;
+    }
+
+    .about-company {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-bottom: 1px solid #e3e3e3;
+
+      @include for-large-up {
+        align-items: flex-start;
+        max-width: 360px;
+        border-bottom: none;
+        margin-top: 43px;
+        margin-left: 130px;
+      }
+
+      .logo-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+
+        @include for-large-up {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          margin-top: 0;
+        }
+
+        &__image {
+          width: 60px;
+          height: 60px;
+        }
+
+        &__text {
+          margin-top: 20px;
+
+          @include for-large-up {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 0;
+            margin-left: 15px;
+          }
+        }
+
+        &__name {
+          color: $text-color-black;
+          text-align: center;
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 25px;
+        }
+
+        &__second-name {
+          color: $text-color-proffesion;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 25px;
+          text-align: center;
+        }
+      }
+
+      &__description {
+        color: $text-color-proffesion;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        margin: 0;
+        margin-top: 30px;
+
+        @include for-large-down {
+          display: none;
+        }
+      }
+
+      .download-images {
+        margin-top: 31px;
+        margin-bottom: 40px;
+
+        @include for-large-up {
+          margin-top: 25px;
+          margin-bottom: 59px;
+        }
+
+        &__item {
+          margin-right: 10px;
+        }
+      }
+    }
+
+    .additional-navigation {
+      @include for-large-up {
+        display: flex;
+        margin-left: 126px;
+        margin-top: 60px;
+      }
+      .nav-links {
+        margin-top: 30px;
+        margin-left: 15px;
+
+        @include for-large-up {
+          margin-left: 0;
+          margin-top: 0;
+          margin-right: 29px;
+          width: 265px;
+        }
+
+        &__title {
+          margin: 0;
+          color: $text-color-black;
+          font-size: 22px;
+          font-weight: 700;
+          line-height: 28px;
+        }
+
+        &__list {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+          margin-top: 18px;
+        }
+
+        &__list-item {
+          color: $text-color-proffesion;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+
+  @include for-large-down {
+    .short-line {
+      display: none;
+    }
+  }
+
+  .footer-links {
+    margin-top: 30px;
+
+    @include for-large-up {
+      display: flex;
+      height: 50px;
+      margin-top: 0;
+      line-height: 50px;
+      width: 1400px;
+    }
+
+    .terms {
+      @include for-large-up {
+        margin-left: 130px;
+      }
+      &__item {
+        text-decoration: none;
+        color: $text-color-proffesion;
+        margin-left: 15px;
+
+        @include for-large-up {
+          &:first-child {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+    .social-links {
+      margin-top: 30px;
+      margin-bottom: 20px;
+
+      @include for-large-up {
+        margin: 0;
+        margin-left: auto;
+      }
+
+      &__item {
+        padding-left: 20px;
+      }
+    }
+  }
+}

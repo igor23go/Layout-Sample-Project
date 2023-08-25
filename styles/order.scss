@@ -1,0 +1,119 @@
+.order {
+  padding: 50px 15px;
+  background-color: $background-color-order;
+
+  @include for-large-up {
+    display: flex;
+    padding: 73px 0 72px 0;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  &__contain-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__illustration {
+    max-width: 200px;
+
+    @include for-large-up {
+      max-width: 269px;
+      margin-right: 121px;
+    }
+  }
+
+  &__details {
+    max-width: 555px;
+  }
+
+  &__title {
+    display: inline-block;
+    color: $text-color-black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.25px;
+    margin: 0;
+    margin-top: 40px;
+
+    @include for-large-up {
+      margin-top: 33px;
+    }
+  }
+
+  &__text {
+    color: $text-color-black;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0;
+    margin-top: 18px;
+
+    @include for-large-up {
+      margin-top: 12px;
+    }
+  }
+
+  &__form {
+    @include for-large-up {
+      display: flex;
+      margin-top: 26px;
+    }
+  }
+
+  &__email {
+    margin-top: 40px;
+    width: 100%;
+    height: 48px;
+    border-radius: 2px;
+    border: 1px solid $text-color-email;
+    background: $background-color-white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 13px;
+
+    @include for-large-down {
+      width: 100%;
+    }
+
+    @include for-large-up {
+      margin-top: 0;
+      flex: 0 0 385px;
+    }
+
+    &::placeholder {
+      color: $text-color-black;
+    }
+  }
+
+  &__button {
+    margin-top: 12px;
+    height: 48px;
+    width: 160px;
+
+    @include for-large-down {
+      width: 100%;
+    }
+
+    @include for-large-up {
+      margin-top: 0;
+      margin-left: 10px;
+      flex: 0 0 160px;
+    }
+  }
+
+  &__terms {
+    color: $text-color-proffesion;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  &__terms-link {
+    color: $text-color-feedback-title;
+  }
+}

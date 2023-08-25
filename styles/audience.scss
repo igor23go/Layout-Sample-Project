@@ -1,0 +1,144 @@
+.audience {
+  background-color: $background-color-audience;
+  padding: 50px 15px;
+
+  @include for-large-up {
+    padding: 0;
+  }
+
+  &__starting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include for-large-up {
+      width: 555px;
+      margin: 108px auto 0 auto;
+    }
+  }
+
+  &__starting-subtitle {
+    display: inline-block;
+    width: 100%;
+    color: $text-color-black;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 34px;
+  }
+
+  &__starting-title {
+    color: $text-color-black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.357px;
+    margin: 0;
+    margin-top: 17px;
+
+    @include for-large-up {
+      margin-top: 24px;
+    }
+  }
+
+  &__starting-description {
+    color: $text-color-black;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    margin: 0;
+    margin-top: 18px;
+
+    @include for-large-up {
+      margin-top: 30px;
+    }
+  }
+
+  &__starting-button {
+    @include for-large-up {
+      display: flex;
+    }
+  }
+
+  &__starting-button-st {
+    width: 290px;
+    height: 48px;
+    margin-top: 30px;
+
+    @include for-large-up {
+      width: 160px;
+      height: 48px;
+      margin-top: 34px;
+    }
+  }
+
+  &__starting-button-ln {
+    width: 290px;
+    height: 48px;
+    margin-top: 17px;
+
+    @include for-large-up {
+      width: 160px;
+      height: 48px;
+      margin-top: 34px;
+      margin-left: 10px;
+    }
+  }
+
+  &__variants {
+    margin-top: 40px;
+
+    @include for-large-up {
+      display: flex;
+      margin: 111px 131px 110px 130px;
+    }
+  }
+
+  &__user-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $background-color-white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05),
+      0px 1px 3px 0px rgba(0, 0, 0, 0.1),
+      0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
+    margin: 0;
+    margin-top: 15px;
+
+    @include for-large-up {
+      width: 262px;
+      margin-top: 0;
+      margin-left: 30px;
+      &:nth-child(3) {
+        margin-left: 31px;
+      }
+    }
+    &:first-child {
+      margin: 0;
+    }
+
+    &:hover {
+      background-color: $background-color-hover;
+    }
+    &:hover figcaption {
+      color: $text-color-white;
+    }
+  }
+
+  &__user-card-img {
+    margin-top: 22px;
+  }
+
+  &__user-card-cap {
+    color: $text-color-black;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 22px;
+    margin-bottom: 33px;
+  }
+}
