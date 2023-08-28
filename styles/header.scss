@@ -78,6 +78,9 @@
       line-height: 25px;
       text-decoration: none;
       margin-left: 50px;
+      &:first-child {
+        margin-left: 0;
+      }
     }
     &__item_selected {
       font-weight: 700;

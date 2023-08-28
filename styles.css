@@ -108,6 +108,9 @@
   text-decoration: none;
   margin-left: 50px;
 }
+.header .header-navigation__item:first-child {
+  margin-left: 0;
+}
 .header .header-navigation__item_selected {
   font-weight: 700;
 }
