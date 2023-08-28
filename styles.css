@@ -25,6 +25,12 @@
   margin: 0;
 }
 
+@media screen and (min-width: 1400px) {
+  .top-section {
+    background-color: #f3c6bd;
+  }
+}
+
 .header {
   display: flex;
   height: 64px;
@@ -1509,12 +1515,6 @@ html {
     max-width: 1400px;
     margin: auto;
     min-height: 100vh;
-  }
-}
-
-@media screen and (min-width: 1400px) {
-  .top-section {
-    background-color: #f3c6bd;
   }
 }
 

@@ -1,3 +1,9 @@
+.top-section {
+  @include for-large-up {
+    background-color: $background-color-headline;
+  }
+}
+
 .header {
   display: flex;
 
