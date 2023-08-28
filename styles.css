@@ -90,8 +90,6 @@
   }
 }
 .header .header-navigation {
-  display: flex;
-  align-items: baseline;
   margin-left: auto;
   margin-top: 7px;
   margin-right: 56px;
@@ -115,6 +113,7 @@
 }
 .header .header-navigation__arrow {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
+  display: inline-block;
   width: 8px;
   height: 5px;
   margin-left: 11px;
