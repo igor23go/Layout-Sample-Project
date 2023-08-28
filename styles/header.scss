@@ -1,20 +1,21 @@
 .header {
   display: flex;
-  align-items: center;
+
   height: 64px;
   width: 100%;
 
   @include for-large-up {
-    height: 100%;
+    width: 1140px;
+    height: 62px;
+    margin: auto;
+    margin-top: 39px;
   }
   .logo {
     display: flex;
     align-items: center;
-    padding: 8px 0 8px 15px;
+    padding-left: 15px;
 
     @include for-large-up {
-      margin-left: 130px;
-      margin-top: 41px;
       padding: 0;
     }
 
@@ -62,10 +63,10 @@
 
   .header-navigation {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     margin-left: auto;
-    margin-top: 46px;
-    margin-right: 75px;
+    margin-top: 7px;
+    margin-right: 56px;
     list-style-type: none;
 
     @include for-large-down {
@@ -114,8 +115,6 @@
   &__button-started {
     width: 160px;
     height: 48px;
-    margin-top: 39px;
-    margin-right: 130px;
 
     @include for-large-down {
       display: none;
