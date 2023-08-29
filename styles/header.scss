@@ -9,6 +9,10 @@
   height: 64px;
   width: 100%;
 
+  @include for-large-down {
+    align-items: center;
+  }
+
   @include for-large-up {
     width: 1140px;
     height: 62px;
