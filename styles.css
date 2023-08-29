@@ -64,25 +64,21 @@
     height: 60px;
   }
 }
+.header .logo__text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+}
 @media screen and (min-width: 1400px) {
   .header .logo__text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     margin-left: 15px;
   }
 }
 .header .logo__name {
-  margin-left: 13px;
   color: #2b292d;
   font-size: 20px;
   font-weight: 700;
   line-height: 25px;
-}
-@media screen and (min-width: 1400px) {
-  .header .logo__name {
-    margin-left: 0;
-  }
 }
 .header .logo__description {
   color: rgba(43, 41, 45, 0.6);
