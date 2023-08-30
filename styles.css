@@ -137,6 +137,7 @@
   background-color: transparent;
   border: none;
   border-left: 1px solid rgba(0, 0, 0, 0.1490196078);
+  padding: 0;
 }
 .header__button-icon {
   display: inline-block;
