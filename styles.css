@@ -953,6 +953,8 @@
 }
 .audience .user-card__img {
   margin-top: 22px;
+  width: 138px;
+  height: 195px;
 }
 .audience .user-card__cap {
   color: #2b292d;
