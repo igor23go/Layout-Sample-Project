@@ -21,6 +21,7 @@
   }
   .logo {
     display: flex;
+    align-items: center;
     margin-left: 15px;
 
     @include for-large-up {
@@ -42,7 +43,6 @@
     &__text {
       display: flex;
       flex-direction: column;
-      justify-content: center;
     }
     &__name {
       color: $text-color-black;
