@@ -21,10 +21,10 @@
   }
   .logo {
     display: flex;
-    padding-left: 15px;
+    margin-left: 15px;
 
     @include for-large-up {
-      padding: 0;
+      margin: 0;
     }
 
     &__image {
@@ -66,7 +66,7 @@
   .header-navigation {
     margin-left: auto;
     margin-top: 7px;
-    margin-right: 75px;
+    margin-right: 56px;
     list-style-type: none;
 
     @include for-large-down {

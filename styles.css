@@ -7,6 +7,7 @@
   font-size: 18px;
   font-weight: 700;
   padding: 0;
+  line-height: 13px;
 }
 
 .learn-btn {
@@ -18,6 +19,7 @@
   font-size: 18px;
   font-weight: 700;
   padding: 0;
+  line-height: 13px;
 }
 
 .short-line {
@@ -53,11 +55,11 @@
 }
 .header .logo {
   display: flex;
-  padding-left: 15px;
+  margin-left: 15px;
 }
 @media screen and (min-width: 1400px) {
   .header .logo {
-    padding: 0;
+    margin: 0;
   }
 }
 .header .logo__image {
@@ -97,7 +99,7 @@
 .header .header-navigation {
   margin-left: auto;
   margin-top: 7px;
-  margin-right: 75px;
+  margin-right: 56px;
   list-style-type: none;
 }
 @media screen and (max-width: 1399px) {
