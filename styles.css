@@ -188,7 +188,6 @@
   line-height: 50px;
   letter-spacing: -0.312px;
   margin: 0;
-  width: 290px;
 }
 @media screen and (min-width: 1400px) {
   .headline__title {
@@ -209,7 +208,6 @@
   line-height: 34px;
   margin: 0;
   margin-top: 24px;
-  width: 290px;
 }
 @media screen and (min-width: 1400px) {
   .headline__desctiption {
