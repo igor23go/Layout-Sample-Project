@@ -1,6 +1,6 @@
 # Layout Sample Project
 
-[Site Link]()
+[Site Link](https://igor23go.github.io/Layout-Sample-Project/)
 
 Layout supports mobile (up-to-400) and desktop (up-to-1400) versions
 
