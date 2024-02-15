@@ -8,6 +8,7 @@
   font-weight: 700;
   padding: 0;
   line-height: 13px;
+  cursor: pointer;
 }
 
 .learn-btn {
@@ -20,6 +21,7 @@
   font-weight: 700;
   padding: 0;
   line-height: 13px;
+  cursor: pointer;
 }
 
 .short-line {
@@ -638,13 +640,13 @@
 .inbox .review__profession {
   margin: 26px 20px 30px 11px;
 }
-.inbox .review__profession__profession-name {
+.inbox .review__profession-name {
   color: #2b292d;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 22px;
 }
-.inbox .review__profession__profession-position {
+.inbox .review__profession-position {
   color: rgba(43, 41, 45, 0.6);
   font-size: 16px;
   font-weight: 400;
@@ -1479,6 +1481,9 @@
   padding: 0;
   margin: 0;
   margin-top: 18px;
+}
+.footer .footer-navigation .additional-navigation .nav-links__link {
+  text-decoration: none;
 }
 .footer .footer-navigation .additional-navigation .nav-links__list-item {
   color: rgba(43, 41, 45, 0.6);
