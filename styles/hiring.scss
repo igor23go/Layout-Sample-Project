@@ -1,162 +1,163 @@
 .hiring {
-  margin: 50px 15px;
-  @include for-large-up {
-    margin: 0;
-    margin-top: 106px;
-    margin-bottom: 110px;
-  }
+	margin: 50px 15px;
 
-  &__title {
-    margin: 0;
-    height: 69px;
-    color: $text-color-black;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: -0.357px;
+	@include for-large-up {
+		margin: 0;
+		margin-top: 106px;
+		margin-bottom: 110px;
+	}
 
-    @include for-large-up {
-      text-align: center;
-      font-size: 56px;
-      line-height: 56px;
-      letter-spacing: -0.5px;
-    }
-  }
+	&__title {
+		margin: 0;
+		height: 69px;
+		color: $text-color-black;
+		text-align: center;
+		font-size: 40px;
+		font-weight: 700;
+		line-height: 40px;
+		letter-spacing: -0.357px;
 
-  &__describe {
-    margin: 0;
-    margin-top: 18px;
-    color: $text-color-black;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 34px;
+		@include for-large-up {
+			text-align: center;
+			font-size: 56px;
+			line-height: 56px;
+			letter-spacing: -0.5px;
+		}
+	}
 
-    @include for-large-up {
-      width: 555px;
-      height: 72px;
-      display: flex;
-      margin: auto;
-      margin-top: 20px;
-    }
-  }
+	&__describe {
+		margin: 0;
+		margin-top: 18px;
+		color: $text-color-black;
+		text-align: center;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 34px;
 
-  &__button {
-    display: block;
-    width: 290px;
-    height: 48px;
-    margin: 30px auto 0 auto;
+		@include for-large-up {
+			width: 555px;
+			height: 72px;
+			display: flex;
+			margin: auto;
+			margin-top: 20px;
+		}
+	}
 
-    @include for-large-up {
-      width: 247px;
-      height: 48px;
-      margin: 28px auto 0 auto;
-    }
-  }
+	&__button {
+		display: block;
+		width: 290px;
+		height: 48px;
+		margin: 30px auto 0 auto;
 
-  &__jobs {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 39px;
+		@include for-large-up {
+			width: 247px;
+			height: 48px;
+			margin: 28px auto 0 auto;
+		}
+	}
 
-    @include for-large-up {
-      margin-top: 110px;
-    }
-  }
+	&__jobs {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 39px;
 
-  &__job {
-    width: 290px;
-    height: 140px;
-    margin-top: 15px;
+		@include for-large-up {
+			margin-top: 110px;
+		}
+	}
 
-    @include for-large-up {
-      width: 750px;
-      height: 81px;
-      margin-top: 20px;
-    }
+	&__job {
+		width: 290px;
+		height: 140px;
+		margin-top: 15px;
 
-    &:first-child {
-      margin-top: 0;
-    }
-  }
+		@include for-large-up {
+			width: 750px;
+			height: 81px;
+			margin-top: 20px;
+		}
+
+		&:first-child {
+			margin-top: 0;
+		}
+	}
 }
 
 .vacancy {
-  display: flex;
-  text-decoration: none;
-  border-radius: 8px;
-  border: 1px solid $border-color-vacancy;
+	display: flex;
+	text-decoration: none;
+	border-radius: 8px;
+	border: 1px solid $border-color-vacancy;
 
-  &:hover {
-    background-color: $background-color-hover;
-  }
+	&:hover {
+		background-color: $background-color-hover;
+	}
 
-  &__details {
-    padding: 19px 21px 19px 20px;
+	&__details {
+		padding: 19px 21px 19px 20px;
 
-    @include for-large-up {
-      display: flex;
-      align-items: center;
-      width: 100%;
-      padding: 0;
-    }
-  }
+		@include for-large-up {
+			display: flex;
+			align-items: center;
+			width: 100%;
+			padding: 0;
+		}
+	}
 
-  &__title {
-    color: $text-color-black;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 28px;
+	&__title {
+		color: $text-color-black;
+		font-size: 22px;
+		font-weight: 700;
+		line-height: 28px;
 
-    @include for-large-up {
-      margin-left: 25px;
-    }
-  }
+		@include for-large-up {
+			margin-left: 25px;
+		}
+	}
 
-  &__location {
-    color: $text-color-location;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-    margin-top: 7px;
+	&__location {
+		color: $text-color-location;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 22px;
+		margin-top: 7px;
 
-    @include for-large-up {
-      margin-left: 211px;
-      font-size: 18px;
-      line-height: 24px;
-    }
-  }
+		@include for-large-up {
+			margin-left: 211px;
+			font-size: 18px;
+			line-height: 24px;
+		}
+	}
 
-  &__arrow-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    background-color: $background-color-arrow-right;
+	&__arrow-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 50px;
+		background-color: $background-color-arrow-right;
 
-    @include for-large-up {
-      background-color: $background-color-white;
-    }
-  }
+		@include for-large-up {
+			background-color: $background-color-white;
+		}
+	}
 }
 
 .vacancy:hover .positiondet > div {
-  color: $text-color-white;
+	color: $text-color-white;
 }
 
 .icon-arrow_right {
-  display: inline-block;
-  width: 7px;
-  height: 12px;
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
+	display: inline-block;
+	width: 7px;
+	height: 12px;
+	background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
 }
 
 .vacancy:hover .containhover .icon-arrow_right {
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png);
+	background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png);
 }
 
 .vacancy:hover .containhover {
-  background-color: $background-color-hover;
+	background-color: $background-color-hover;
 }

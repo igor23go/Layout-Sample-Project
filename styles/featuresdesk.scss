@@ -1,99 +1,101 @@
 .features-desktop {
-  position: relative;
-  margin-top: 106px;
-  margin-bottom: 106px;
+	position: relative;
+	margin-top: 106px;
+	margin-bottom: 106px;
 
-  @include for-large-down {
-    display: none;
-  }
+	@include for-large-down {
+		display: none;
+	}
 
-  &__left-decoration {
-    position: absolute;
-    top: 258px;
-  }
-  &__column {
-    width: 462px;
-    margin-left: 126px;
-  }
-  &__subtitle {
-    color: $text-color-features-desktop-subtitle;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 34px;
-    margin: 0;
-  }
+	&__left-decoration {
+		position: absolute;
+		top: 258px;
+	}
 
-  &__title {
-    color: $text-color-black;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 56px;
-    letter-spacing: -0.5px;
-    margin: 0;
-    margin-top: 24px;
-  }
+	&__column {
+		width: 462px;
+		margin-left: 126px;
+	}
 
-  &__description {
-    color: $text-color-black;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 34px;
-    margin: 0;
-    margin-top: 30px;
-  }
+	&__subtitle {
+		color: $text-color-features-desktop-subtitle;
+		font-size: 22px;
+		font-weight: 700;
+		line-height: 34px;
+		margin: 0;
+	}
 
-  &__advantage-header {
-    display: flex;
-    margin-top: 42px;
-    position: relative;
-  }
+	&__title {
+		color: $text-color-black;
+		font-size: 56px;
+		font-weight: 700;
+		line-height: 56px;
+		letter-spacing: -0.5px;
+		margin: 0;
+		margin-top: 24px;
+	}
 
-  &__advantage-title {
-    color: $text-color-feedback-title;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 26px;
-    margin: 0;
-    margin-left: 15px;
-  }
+	&__description {
+		color: $text-color-black;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 34px;
+		margin: 0;
+		margin-top: 30px;
+	}
 
-  &__advantage-hend {
-    position: absolute;
-    width: 13px;
-    height: 14px;
-    left: 277px;
-    bottom: 2px;
-  }
+	&__advantage-header {
+		display: flex;
+		margin-top: 42px;
+		position: relative;
+	}
 
-  &__advantage-description {
-    color: $text-color-black;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 26px;
-    margin: 0;
-    margin-top: 8px;
-    padding-bottom: 20px;
-    border-bottom: 3px solid $border-color-acquire;
-  }
+	&__advantage-title {
+		color: $text-color-feedback-title;
+		font-size: 22px;
+		font-weight: 700;
+		line-height: 26px;
+		margin: 0;
+		margin-left: 15px;
+	}
 
-  &__advantage-item {
-    display: flex;
-    margin-top: 20px;
-    border-bottom: 1px solid $border-color-engage;
-    padding-bottom: 20px;
-  }
+	&__advantage-hend {
+		position: absolute;
+		width: 13px;
+		height: 14px;
+		left: 277px;
+		bottom: 2px;
+	}
 
-  &__advantage-item-text {
-    color: $text-color-black;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 26px;
-    margin-left: 15px;
-  }
+	&__advantage-description {
+		color: $text-color-black;
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 26px;
+		margin: 0;
+		margin-top: 8px;
+		padding-bottom: 20px;
+		border-bottom: 3px solid $border-color-acquire;
+	}
 
-  &__right-decoration {
-    position: absolute;
-    top: 5px;
-    right: 0;
-  }
+	&__advantage-item {
+		display: flex;
+		margin-top: 20px;
+		border-bottom: 1px solid $border-color-engage;
+		padding-bottom: 20px;
+	}
+
+	&__advantage-item-text {
+		color: $text-color-black;
+		font-size: 22px;
+		font-weight: 700;
+		line-height: 26px;
+		margin-left: 15px;
+	}
+
+	&__right-decoration {
+		position: absolute;
+		top: 5px;
+		right: 0;
+	}
 }
