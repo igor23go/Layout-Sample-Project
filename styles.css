@@ -644,43 +644,44 @@
     margin-top: 30px;
   }
 }
-.inbox .review {
+
+.review {
   background-color: #fff;
   border-bottom: 4px solid #0185d0;
   padding: 30px 20px;
   margin-top: 30px;
 }
 @media screen and (min-width: 1400px) {
-  .inbox .review {
+  .review {
     margin-top: 44px;
     padding: 30px 30px 28px 30px;
   }
 }
-.inbox .review__phrase {
+.review__phrase {
   margin: 0;
   color: #2b292d;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
 }
-.inbox .review__writer {
+.review__writer {
   display: flex;
   width: 100%;
   margin-top: 26px;
 }
-.inbox .review__avatar {
+.review__avatar {
   padding: 28px 0px 54px 20px;
 }
-.inbox .review__profession {
+.review__profession {
   margin: 26px 20px 30px 11px;
 }
-.inbox .review__profession-name {
+.review__profession-name {
   color: #2b292d;
   font-size: 16px;
   font-weight: 900;
   line-height: 22px;
 }
-.inbox .review__profession-position {
+.review__profession-position {
   color: rgba(43, 41, 45, 0.6);
   font-size: 16px;
   font-weight: 400;
