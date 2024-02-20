@@ -6,38 +6,38 @@
 		display: flex;
 		padding: 77px 131px 76px 130px;
 	}
+}
 
-	.article {
-		@include for-large-up {
-			width: 555px;
-		}
-
-		&__title {
-			font-size: 22px;
-			font-weight: 700;
-			line-height: 32px;
-			margin: 0;
-		}
-
-		&__text {
-			font-size: 22px;
-			font-weight: 400;
-			line-height: 32px;
-			margin: 0px;
-			margin-top: 20px;
-
-			@include for-large-up {
-				margin-top: 6px;
-			}
-		}
+.article {
+	@include for-large-up {
+		width: 555px;
 	}
 
-	.article:last-child {
+	&__title {
+		font-size: 22px;
+		font-weight: 700;
+		line-height: 32px;
+		margin: 0;
+	}
+
+	&__text {
+		font-size: 22px;
+		font-weight: 400;
+		line-height: 32px;
+		margin: 0px;
 		margin-top: 20px;
 
 		@include for-large-up {
-			margin: 0;
-			margin-left: 29px;
+			margin-top: 6px;
 		}
+	}
+}
+
+.article:last-child {
+	margin-top: 20px;
+
+	@include for-large-up {
+		margin: 0;
+		margin-left: 29px;
 	}
 }
