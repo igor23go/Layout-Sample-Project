@@ -89,7 +89,7 @@
 		border-radius: 50%;
 	}
 
-	.point-selected {
+	&__point_selected {
 		background-color: $background-color-point;
 		opacity: 1;
 	}
