@@ -580,6 +580,7 @@
   .inbox__figur {
     margin-top: 142px;
     margin-left: 193px;
+    margin-bottom: 101px;
   }
 }
 .inbox__image {
@@ -599,23 +600,21 @@
   }
 }
 .inbox__profil {
-  padding-top: 30px;
+  margin-top: 32px;
 }
 @media screen and (min-width: 1400px) {
   .inbox__profil {
     width: 519px;
     margin-top: 115px;
-    margin-left: 194px;
-    margin-bottom: 116px;
-    padding: 0;
+    margin-left: 164px;
   }
 }
 .inbox__profil-subtitle {
-  margin-top: 32px;
   color: #f1592b;
   font-size: 22px;
   font-weight: 700;
   line-height: 34px;
+  padding-left: 30px;
 }
 .inbox__profil-title {
   color: #2b292d;
@@ -629,6 +628,10 @@
 @media screen and (min-width: 1400px) {
   .inbox__profil-title {
     margin-top: 24px;
+    line-height: 56px;
+    font-size: 56px;
+    width: 462px;
+    padding-left: 30px;
   }
 }
 .inbox__profil-description {
@@ -642,19 +645,21 @@
 @media screen and (min-width: 1400px) {
   .inbox__profil-description {
     margin-top: 30px;
+    width: 491px;
+    padding-left: 30px;
   }
 }
 
 .review {
   background-color: #fff;
   border-bottom: 4px solid #0185d0;
-  padding: 30px 20px;
+  padding: 30px 20px 28px 20px;
   margin-top: 30px;
 }
 @media screen and (min-width: 1400px) {
   .review {
     margin-top: 44px;
-    padding: 30px 30px 28px 30px;
+    padding: 30px 30px 24px 30px;
   }
 }
 .review__phrase {
@@ -670,10 +675,17 @@
   margin-top: 26px;
 }
 .review__avatar {
-  padding: 28px 0px 54px 20px;
+  width: 40px;
+  height: 40px;
 }
 .review__profession {
-  margin: 26px 20px 30px 11px;
+  margin: 0 0 0 11px;
+  width: 199px;
+}
+@media screen and (min-width: 1400px) {
+  .review__profession {
+    width: 225px;
+  }
 }
 .review__profession-name {
   color: #2b292d;

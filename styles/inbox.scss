@@ -16,6 +16,7 @@
 		@include for-large-up {
 			margin-top: 142px;
 			margin-left: 193px;
+			margin-bottom: 101px;
 		}
 	}
 
@@ -37,23 +38,21 @@
 	}
 
 	&__profil {
-		padding-top: 30px;
+		margin-top: 32px;
 
 		@include for-large-up {
 			width: 519px;
 			margin-top: 115px;
-			margin-left: 194px;
-			margin-bottom: 116px;
-			padding: 0;
+			margin-left: 164px;
 		}
 	}
 
 	&__profil-subtitle {
-		margin-top: 32px;
 		color: $text-color-1592;
 		font-size: 22px;
 		font-weight: 700;
 		line-height: 34px;
+		padding-left: 30px;
 	}
 
 	&__profil-title {
@@ -66,6 +65,10 @@
 		margin-top: 17px;
 		@include for-large-up {
 			margin-top: 24px;
+			line-height: 56px;
+			font-size: 56px;
+			width: 462px;
+			padding-left: 30px;
 		}
 	}
 
@@ -79,6 +82,8 @@
 
 		@include for-large-up {
 			margin-top: 30px;
+			width: 491px;
+			padding-left: 30px;
 		}
 	}
 }
@@ -86,12 +91,12 @@
 .review {
 	background-color: $background-color-white;
 	border-bottom: 4px solid $border-color-review;
-	padding: 30px 20px;
+	padding: 30px 20px 28px 20px;
 	margin-top: 30px;
 
 	@include for-large-up {
 		margin-top: 44px;
-		padding: 30px 30px 28px 30px;
+		padding: 30px 30px 24px 30px;
 	}
 
 	&__phrase {
@@ -109,11 +114,17 @@
 	}
 
 	&__avatar {
-		padding: 28px 0px 54px 20px;
+		width: 40px;
+		height: 40px;
 	}
 
 	&__profession {
-		margin: 26px 20px 30px 11px;
+		margin: 0 0 0 11px;
+		width: 199px;
+
+		@include for-large-up {
+			width: 225px;
+		}
 	}
 
 	&__profession-name {
