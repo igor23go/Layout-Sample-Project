@@ -358,12 +358,7 @@
   filter: brightness(0);
   max-width: 80%;
 }
-
 .customers-item:last-child {
-  border-right: none;
-}
-
-.customers-item:nth-child(3) {
   border-right: none;
 }
 
