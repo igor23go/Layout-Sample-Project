@@ -506,12 +506,20 @@
   margin: 0;
   margin-top: 30px;
 }
-.features-desktop__advantage-header {
-  display: flex;
+.features-desktop__right-decoration {
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+
+.advantage {
   margin-top: 42px;
+}
+.advantage__wrapper {
+  display: flex;
   position: relative;
 }
-.features-desktop__advantage-title {
+.advantage__title {
   color: #3142c6;
   font-size: 22px;
   font-weight: 700;
@@ -519,14 +527,14 @@
   margin: 0;
   margin-left: 15px;
 }
-.features-desktop__advantage-hend {
+.advantage__hend {
   position: absolute;
   width: 13px;
   height: 14px;
   left: 277px;
   bottom: 2px;
 }
-.features-desktop__advantage-description {
+.advantage__description {
   color: #2b292d;
   font-size: 18px;
   font-weight: 400;
@@ -536,23 +544,18 @@
   padding-bottom: 20px;
   border-bottom: 3px solid #3142c6;
 }
-.features-desktop__advantage-item {
+.advantage__item {
   display: flex;
   margin-top: 20px;
   border-bottom: 1px solid rgba(43, 41, 45, 0.1490196078);
   padding-bottom: 20px;
 }
-.features-desktop__advantage-item-text {
+.advantage__item-text {
   color: #2b292d;
   font-size: 22px;
   font-weight: 700;
   line-height: 26px;
   margin-left: 15px;
-}
-.features-desktop__right-decoration {
-  position: absolute;
-  top: 5px;
-  right: 0;
 }
 
 .inbox {

@@ -44,13 +44,22 @@
 		margin-top: 30px;
 	}
 
-	&__advantage-header {
+	&__right-decoration {
+		position: absolute;
+		top: 5px;
+		right: 0;
+	}
+}
+
+.advantage {
+	margin-top: 42px;
+
+	&__wrapper {
 		display: flex;
-		margin-top: 42px;
 		position: relative;
 	}
 
-	&__advantage-title {
+	&__title {
 		color: $text-color-feedback-title;
 		font-size: 22px;
 		font-weight: 700;
@@ -59,7 +68,7 @@
 		margin-left: 15px;
 	}
 
-	&__advantage-hend {
+	&__hend {
 		position: absolute;
 		width: 13px;
 		height: 14px;
@@ -67,7 +76,7 @@
 		bottom: 2px;
 	}
 
-	&__advantage-description {
+	&__description {
 		color: $text-color-black;
 		font-size: 18px;
 		font-weight: 400;
@@ -78,24 +87,18 @@
 		border-bottom: 3px solid $border-color-acquire;
 	}
 
-	&__advantage-item {
+	&__item {
 		display: flex;
 		margin-top: 20px;
 		border-bottom: 1px solid $border-color-engage;
 		padding-bottom: 20px;
 	}
 
-	&__advantage-item-text {
+	&__item-text {
 		color: $text-color-black;
 		font-size: 22px;
 		font-weight: 700;
 		line-height: 26px;
 		margin-left: 15px;
-	}
-
-	&__right-decoration {
-		position: absolute;
-		top: 5px;
-		right: 0;
 	}
 }
