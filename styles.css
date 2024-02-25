@@ -607,14 +607,15 @@
     margin-left: 164px;
   }
 }
-.inbox__profil-subtitle {
+
+.profil__subtitle {
   color: #f1592b;
   font-size: 22px;
   font-weight: 700;
   line-height: 34px;
   padding-left: 30px;
 }
-.inbox__profil-title {
+.profil__title {
   color: #2b292d;
   font-size: 40px;
   font-weight: 700;
@@ -624,7 +625,7 @@
   margin-top: 17px;
 }
 @media screen and (min-width: 1400px) {
-  .inbox__profil-title {
+  .profil__title {
     margin-top: 24px;
     line-height: 56px;
     font-size: 56px;
@@ -632,7 +633,7 @@
     padding-left: 30px;
   }
 }
-.inbox__profil-description {
+.profil__description {
   color: #2b292d;
   font-size: 24px;
   font-weight: 400;
@@ -641,7 +642,7 @@
   margin-top: 18px;
 }
 @media screen and (min-width: 1400px) {
-  .inbox__profil-description {
+  .profil__description {
     margin-top: 30px;
     width: 491px;
     padding-left: 30px;
