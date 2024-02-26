@@ -33,7 +33,6 @@
 		font-weight: 700;
 		line-height: 40px;
 		letter-spacing: -0.357px;
-		margin: 0;
 		margin-top: 17px;
 
 		@include for-large-up {
@@ -46,7 +45,6 @@
 		font-size: 24px;
 		font-weight: 400;
 		line-height: 34px;
-		margin: 0;
 		margin-top: 18px;
 
 		@include for-large-up {
@@ -68,7 +66,6 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin: 0;
 		margin-top: 40px;
 
 		@include for-large-up {
@@ -91,7 +88,6 @@
 }
 
 .communication-short-line {
-	margin: 0;
 	margin-top: 40px;
 	width: 150px;
 
@@ -126,7 +122,6 @@
 	}
 
 	&__description {
-		margin: 0;
 		color: $text-color-black;
 		font-size: 18px;
 		font-weight: 400;
@@ -141,7 +136,6 @@
 	}
 
 	&__links {
-		margin: 0;
 		margin-top: 8px;
 
 		@include for-large-up {
