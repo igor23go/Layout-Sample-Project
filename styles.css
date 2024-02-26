@@ -1122,7 +1122,6 @@
   }
 }
 .hiring__title {
-  margin: 0;
   height: 69px;
   color: #2b292d;
   text-align: center;
@@ -1140,7 +1139,6 @@
   }
 }
 .hiring__describe {
-  margin: 0;
   margin-top: 18px;
   color: #2b292d;
   text-align: center;
